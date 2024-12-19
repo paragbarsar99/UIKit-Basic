@@ -18,6 +18,8 @@
 		2BCC3B5F2D10380F0093391F /* StacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC3B5E2D10380F0093391F /* StacksViewController.swift */; };
 		2BCC3B622D1152DB0093391F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC3B612D1152DB0093391F /* TextField.swift */; };
 		2BCF5C792D12A5FE0029AFFB /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF5C782D12A5FE0029AFFB /* ScrollViewController.swift */; };
+		2BCF5C7C2D141EBA0029AFFB /* DelegateDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF5C7B2D141EBA0029AFFB /* DelegateDesignViewController.swift */; };
+		2BCF5C7E2D1420EF0029AFFB /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF5C7D2D1420EF0029AFFB /* ActionButton.swift */; };
 		C2EAB2086FFB5C5245C05CB3 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345B189B5C6131161A7E5E62 /* Pods_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		2BCC3B5E2D10380F0093391F /* StacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksViewController.swift; sourceTree = "<group>"; };
 		2BCC3B612D1152DB0093391F /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		2BCF5C782D12A5FE0029AFFB /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		2BCF5C7B2D141EBA0029AFFB /* DelegateDesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDesignViewController.swift; sourceTree = "<group>"; };
+		2BCF5C7D2D1420EF0029AFFB /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		345B189B5C6131161A7E5E62 /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1267A9B22F6BC4C1E38984 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 		A08C32C57ACDA09644323A7D /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		2BCC3B402D0C823D0093391F /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2BCF5C7A2D141E630029AFFB /* DelegateDesign */,
 				2BCF5C772D12A5E50029AFFB /* ScrollView */,
 				2BCC3B602D1152AC0093391F /* TextField */,
 				2BCC3B5D2D1037E90093391F /* Stack */,
@@ -135,6 +140,15 @@
 				2BCF5C782D12A5FE0029AFFB /* ScrollViewController.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		2BCF5C7A2D141E630029AFFB /* DelegateDesign */ = {
+			isa = PBXGroup;
+			children = (
+				2BCF5C7B2D141EBA0029AFFB /* DelegateDesignViewController.swift */,
+				2BCF5C7D2D1420EF0029AFFB /* ActionButton.swift */,
+			);
+			path = DelegateDesign;
 			sourceTree = "<group>";
 		};
 		DE7A01DFE6943F9132D62EAC /* Pods */ = {
@@ -266,9 +280,11 @@
 				2BCC3B5C2D1031660093391F /* Images.swift in Sources */,
 				2BCF5C792D12A5FE0029AFFB /* ScrollViewController.swift in Sources */,
 				2BCC3B622D1152DB0093391F /* TextField.swift in Sources */,
+				2BCF5C7C2D141EBA0029AFFB /* DelegateDesignViewController.swift in Sources */,
 				2BCC3B592D0EF88E0093391F /* ButtonPractice.swift in Sources */,
 				2BCC3B442D0C823D0093391F /* SceneDelegate.swift in Sources */,
 				2BCC3B5F2D10380F0093391F /* StacksViewController.swift in Sources */,
+				2BCF5C7E2D1420EF0029AFFB /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
